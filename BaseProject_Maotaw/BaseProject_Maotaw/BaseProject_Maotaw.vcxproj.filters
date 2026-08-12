@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="App"><UniqueIdentifier>{D01D6AA1-EC89-44E9-845B-1B026E60A101}</UniqueIdentifier></Filter>
+    <Filter Include="Core"><UniqueIdentifier>{D01D6AA1-EC89-44E9-845B-1B026E60A102}</UniqueIdentifier></Filter>
+    <Filter Include="Features"><UniqueIdentifier>{D01D6AA1-EC89-44E9-845B-1B026E60A103}</UniqueIdentifier></Filter>
+    <Filter Include="Game"><UniqueIdentifier>{D01D6AA1-EC89-44E9-845B-1B026E60A104}</UniqueIdentifier></Filter>
+    <Filter Include="UI"><UniqueIdentifier>{D01D6AA1-EC89-44E9-845B-1B026E60A105}</UniqueIdentifier></Filter>
+    <Filter Include="User"><UniqueIdentifier>{D01D6AA1-EC89-44E9-845B-1B026E60A106}</UniqueIdentifier></Filter>
+    <Filter Include="Source Files"><UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier></Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App\AppConfig.hpp"><Filter>App</Filter></ClInclude>
+    <ClInclude Include="App\Config.hpp"><Filter>App</Filter></ClInclude>
+    <ClInclude Include="App\Settings.hpp"><Filter>App</Filter></ClInclude>
+    <ClInclude Include="Core\MathCore.hpp"><Filter>Core</Filter></ClInclude>
+    <ClInclude Include="Core\Memory.hpp"><Filter>Core</Filter></ClInclude>
+    <ClInclude Include="Core\Overlay.hpp"><Filter>Core</Filter></ClInclude>
+    <ClInclude Include="Core\RendererCore.hpp"><Filter>Core</Filter></ClInclude>
+    <ClInclude Include="Features\Radar.hpp"><Filter>Features</Filter></ClInclude>
+    <ClInclude Include="Features\Trail.hpp"><Filter>Features</Filter></ClInclude>
+    <ClInclude Include="Game\EntityCache.hpp"><Filter>Game</Filter></ClInclude>
+    <ClInclude Include="Game\GameLogic.hpp"><Filter>Game</Filter></ClInclude>
+    <ClInclude Include="Game\Offsets.hpp"><Filter>Game</Filter></ClInclude>
+    <ClInclude Include="UI\Palette.hpp"><Filter>UI</Filter></ClInclude>
+    <ClInclude Include="UI\PixelFont.hpp"><Filter>UI</Filter></ClInclude>
+    <ClInclude Include="UI\MenuState.hpp"><Filter>UI</Filter></ClInclude>
+    <ClInclude Include="UI\MenuInput.hpp"><Filter>UI</Filter></ClInclude>
+    <ClInclude Include="UI\MenuDraw.hpp"><Filter>UI</Filter></ClInclude>
+    <ClInclude Include="UI\PixelMenu.hpp"><Filter>UI</Filter></ClInclude>
+    <ClInclude Include="User\UserLogic.hpp"><Filter>User</Filter></ClInclude>
+    <ClInclude Include="User\UserRender.hpp"><Filter>User</Filter></ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp"><Filter>Source Files</Filter></ClCompile>
+  </ItemGroup>
+</Project>

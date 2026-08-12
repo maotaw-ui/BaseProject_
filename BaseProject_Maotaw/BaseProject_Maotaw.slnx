@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="Win32" />
+  </Configurations>
+  <Project Path="BaseProject_Maotaw/BaseProject_Maotaw.vcxproj" Id="efa93ef9-5c7b-497a-9861-88b99413fed5" />
+</Solution>
